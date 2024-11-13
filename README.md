@@ -1,4 +1,6 @@
-# Aplikacja do przetwarzania artykułów z OpenAI API                                                                ## Krótki opis działania aplikacji:
+# Aplikacja do przetwarzania artykułów z OpenAI API   
+
+## Krótki opis działania aplikacji:
 
 Aplikacja przetwarza artykuł tekstowy, korzystając z API OpenAI, generując kod HTML, który zawiera odpowiednią strukturę artykułu, w tym obrazki, podpisy i tytuły.
 1. Wczytanie artykułu: Aplikacja odczytuje artykuł z pliku tekstowego (artykuł.txt).
