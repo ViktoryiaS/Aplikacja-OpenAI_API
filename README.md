@@ -41,26 +41,34 @@ Klucz API możesz uzyskać, rejestrując się na stronie OpenAI.
 ### Uruchamianie skryptu w IDLE (Python 3.12.4):
 
 Otwórz IDLE:
+
 Windows: Wyszukaj "IDLE" w menu Start.
+
 Mac/Linux: Uruchom idle3 z terminala.
 
 Otwórz skrypt:
+
 W IDLE kliknij File > Open i wybierz swój skrypt (np. app.py).
 
 Uruchom skrypt:
+
 Kliknij Run > Run Module lub naciśnij F5.
 
 Skrypt wykonuje następujące kroki:
+
 Wczytuje zawartość pliku tekstowego artykuł.txt.
+
 Wysyła artykuł do API OpenAI w celu obróbki.
+
 Zapisuje wynikowy kod HTML w pliku artykul.html.
 
 Dodatkowo, generuje szablon HTML w pliku szablon.html oraz pełny podgląd artykułu w pliku podglad.html.
 
 Sprawdzenie wyników:
+
 Pliki wynikowe (artykul.html, szablon.html, podglad.html) pojawią się w folderze, w którym uruchomiłeś skrypt.
 
-# Alternatywnie, aby uruchomić skrypt z terminala: 
+### Alternatywnie, aby uruchomić skrypt z terminala: 
 
 W terminalu wpisz:
 
