@@ -40,21 +40,31 @@ Klucz API możesz uzyskać, rejestrując się na stronie OpenAI.
 
 ### Uruchamianie skryptu w IDLE (Python 3.12.4):
 
-Otwórz IDLE:
+#### 1. Pobierz lub sklonuj repozytorium:
+   
+    Otwórz repozytorium w przeglądarce: github.com
+   
+Opcja 1: Pobierz plik ZIP z repozytorium z GitHub i wypakuj go na swoim komputerze.
+
+Opcja 2: Skorzystaj z Git i sklonuj repozytorium:
+
+git clone https://github.com/nazwa/App.git
+
+#### 2. Otwórz IDLE:
 
 Windows: Wyszukaj "IDLE" w menu Start.
 
 Mac/Linux: Uruchom idle3 z terminala.
 
-Otwórz skrypt:
+#### 3. Otwórz skrypt:
 
 W IDLE kliknij File > Open i wybierz swój skrypt (np. app.py).
 
-Uruchom skrypt:
+#### 4. Uruchom skrypt:
 
 Kliknij Run > Run Module lub naciśnij F5.
 
-Skrypt wykonuje następujące kroki:
+#### Skrypt wykonuje następujące kroki:
 
 Wczytuje zawartość pliku tekstowego artykuł.txt.
 
@@ -64,7 +74,7 @@ Zapisuje wynikowy kod HTML w pliku artykul.html.
 
 Dodatkowo, generuje szablon HTML w pliku szablon.html oraz pełny podgląd artykułu w pliku podglad.html.
 
-Sprawdzenie wyników:
+#### Sprawdzenie wyników:
 
 Pliki wynikowe (artykul.html, szablon.html, podglad.html) pojawią się w folderze, w którym uruchomiłeś skrypt.
 
