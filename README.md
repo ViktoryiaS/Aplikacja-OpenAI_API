@@ -56,8 +56,11 @@ Możesz otworzyć pliki szablon.html oraz podglad.html w dowolnej przeglądarce,
 W projekcie znajdują się następujące pliki:
 
 app.py: Główny skrypt odpowiedzialny za łączenie z API OpenAI, przetwarzanie artykułu, generowanie HTML oraz zapisywanie wyników do plików.
+
 artykuł.txt: Plik zawierający artykuł do przetworzenia (zastąp tym plikiem swój własny artykuł).
+
 szablon.html: Pusty szablon HTML, który może być używany do późniejszego generowania podglądów artykułów.
+
 podglad.html: Plik zawierający pełny podgląd artykułu w formacie HTML.
 
 ## Działanie skryptu:
@@ -66,7 +69,8 @@ Skrypt wczytuje artykuł z pliku artykuł.txt.
 Następnie, artykuł jest przetwarzany przez OpenAI przy użyciu odpowiedniego promptu.
 Wygenerowany HTML jest zapisany w pliku artykul.html.
 Tworzony jest także szablon HTML (szablon.html) oraz podgląd artykułu (podglad.html).
-Kod skryptu
+
+## Kod skryptu
 
 W załączeniu znajduje się kod, który wykonuje wszystkie operacje wymagane w projekcie:
 
