@@ -42,7 +42,7 @@ Dodatkowo, wygeneruje szablon HTML (szablon.html) oraz pełny podgląd artykułu
 
 Aby uruchomić skrypt, wystarczy wykonać poniższe polecenie w terminalu:
 
-python nazwa_skryptu.py
+python app.py
 
 ## Wygenerowane pliki:
 
