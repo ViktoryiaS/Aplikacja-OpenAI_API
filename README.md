@@ -46,9 +46,15 @@ Otwórz repozytorium w przeglądarce: ``` github.com ```
    
 Opcja 1: Pobierz plik ZIP z repozytorium z GitHub i wypakuj go na swoim komputerze.
 
-Opcja 2: Sklonuj repozytorium:
+Opcja 2: Sklonuj repozytorium przy użyciu terminala:
+
+##### 1. Otwórz terminal (Git Bash na Windowsie, Terminal na macOS/Linux).
+
+##### 2. Sklonuj repozytorium za pomocą polecenia git clone. 
 
 ``` git clone https://github.com/ViktoryiaS/Aplikacja-OpenAI_API.git ```
+
+##### 3. Repozytorium zostanie sklonowane do folderu na Twoim komputerze.
 
 #### 2. Otwórz IDLE:
 
