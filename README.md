@@ -1,13 +1,16 @@
-# Aplikacja do przetwarzania artykułów z OpenAI API                                                            Krótki opis działania aplikacji:
+# Aplikacja do przetwarzania artykułów z OpenAI API                                                                ## Krótki opis działania aplikacji:
+
 Aplikacja przetwarza artykuł tekstowy, korzystając z API OpenAI, generując kod HTML, który zawiera odpowiednią strukturę artykułu, w tym obrazki, podpisy i tytuły.
 1. Wczytanie artykułu: Aplikacja odczytuje artykuł z pliku tekstowego (artykuł.txt).
 2. Przetwarzanie przez OpenAI: Artykuł jest przesyłany do OpenAI z odpowiednim promptem, który prosi o przekształcenie treści w strukturę HTML z użyciem odpowiednich tagów. Zawiera także instrukcję wstawiania obrazków z atrybutem alt oraz podpisów.
 3. Zapis do pliku HTML: Wygenerowany przez OpenAI kod HTML jest zapisywany w pliku artykul.html.
 4. Generowanie szablonu HTML: Tworzony jest pusty szablon HTML (szablon.html), który może być używany do wstawiania artykułów w przyszłości.
 5. Podgląd artykułu: Pełny podgląd artykułu generowany jest w pliku podglad.html, który umożliwia wyświetlenie artykułu w przeglądarce internetowej.
+   
 Aplikacja umożliwia łatwą konwersję artykułów do formatu HTML, zachowując odpowiednią strukturę i oznaczenia dla obrazków.
 
-Krótkie wyjaśnienie kodu:
+## Krótkie wyjaśnienie kodu:
+
 procesuj_artykul: Funkcja, która łączy się z API OpenAI, przetwarza artykuł i zwraca wygenerowany kod HTML.
 wczytaj_artykuł: Wczytuje artykuł z pliku tekstowego.
 zapisz_do_html: Zapisuje wygenerowany HTML do wskazanego pliku.
@@ -15,7 +18,7 @@ generuj_szablon_html: Tworzy pusty szablon HTML, w którym można umieścić art
 generuj_podglad_html: Tworzy pełny podgląd HTML, w którym wstawiany jest wygenerowany artykuł.
 Aplikacja zapisuje wygenerowane pliki HTML: artykul.html (z artykułem), szablon.html (pusty szablon) oraz podglad.html (pełny podgląd artykułu).
 
-Instrukcja użycia
+## Instrukcja użycia
 
 Przygotowanie artykułu
 Stwórz plik tekstowy (np. artykuł.txt) z artykułem, który chcesz przetworzyć. Plik powinien być zapisany w formacie tekstowym (np. .txt).
@@ -23,7 +26,7 @@ Ustawienie klucza API OpenAI
 W kodzie, w miejscu openai.api_key = 'YOUR_OPENAI_API_KEY', wprowadź swój klucz API OpenAI.
 Klucz API możesz uzyskać, rejestrując się na stronie OpenAI.
 
-Uruchomienie skryptu
+## Uruchomienie skryptu
 Skrypt wczyta zawartość pliku tekstowego artykuł.txt, wyśle go do API OpenAI w celu obróbki, a następnie zapisze wynikowy kod HTML w pliku artykul.html.
 Dodatkowo, wygeneruje szablon HTML (szablon.html) oraz pełny podgląd artykułu w pliku podglad.html.
 
@@ -31,19 +34,20 @@ Aby uruchomić skrypt, wystarczy wykonać poniższe polecenie w terminalu:
 
 python nazwa_skryptu.py
 
-Wygenerowane pliki:
+## Wygenerowane pliki:
 
 Po uruchomieniu skryptu w folderze roboczym pojawią się trzy pliki:
 
 artykul.html – plik zawierający kod HTML wygenerowany przez OpenAI, który zawiera artykuł w odpowiednich tagach HTML.
 szablon.html – pusty szablon HTML, który może być używany do późniejszego generowania podglądów artykułów. Sekcja <body> powinna być pusta, gotowa do wklejenia artykułu.
 podglad.html – plik zawierający pełny podgląd artykułu, który zawiera zarówno szablon HTML, jak i artykuł wstawiony do sekcji <body>.
-Wykorzystanie wygenerowanego HTML:
+
+### Wykorzystanie wygenerowanego HTML:
 
 Możesz otworzyć pliki szablon.html oraz podglad.html w dowolnej przeglądarce, aby zobaczyć wygenerowany artykuł w formacie HTML.
 
-Szczegóły implementacji
-Struktura projektu:
+# Szczegóły implementacji
+## Struktura projektu:
 
 W projekcie znajdują się następujące pliki:
 
@@ -52,7 +56,7 @@ artykuł.txt: Plik zawierający artykuł do przetworzenia (zastąp tym plikiem s
 szablon.html: Pusty szablon HTML, który może być używany do późniejszego generowania podglądów artykułów.
 podglad.html: Plik zawierający pełny podgląd artykułu w formacie HTML.
 
-Działanie skryptu:
+## Działanie skryptu:
 
 Skrypt wczytuje artykuł z pliku artykuł.txt.
 Następnie, artykuł jest przetwarzany przez OpenAI przy użyciu odpowiedniego promptu.
@@ -62,7 +66,7 @@ Kod skryptu
 
 W załączeniu znajduje się kod, który wykonuje wszystkie operacje wymagane w projekcie:
 
-import openai
+```import openai
 import chardet
 
 # Funkcja do łączenia się z OpenAI API i przetwarzania artykułu
@@ -179,7 +183,8 @@ def main():
     print("Szablon i podgląd artykułu zostały zapisane do 'szablon.html' i 'podglad.html'.")
 
 if __name__ == "__main__":
-    main()
+    main() ```
+
 Po wykonaniu tych kroków, Twoja aplikacja będzie gotowa do przetwarzania artykułów i generowania kodu HTML!
 
 
