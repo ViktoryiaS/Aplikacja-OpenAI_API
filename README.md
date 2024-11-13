@@ -1,0 +1,1 @@
+# Aplikacja-do-przetwarzania-artyku-w-z-OpenAI-API
