@@ -41,7 +41,9 @@ python nazwa_skryptu.py
 Po uruchomieniu skryptu w folderze roboczym pojawią się trzy pliki:
 
 artykul.html – plik zawierający kod HTML wygenerowany przez OpenAI, który zawiera artykuł w odpowiednich tagach HTML.
+
 szablon.html – pusty szablon HTML, który może być używany do późniejszego generowania podglądów artykułów. Sekcja <body> powinna być pusta, gotowa do wklejenia artykułu.
+
 podglad.html – plik zawierający pełny podgląd artykułu, który zawiera zarówno szablon HTML, jak i artykuł wstawiony do sekcji <body>.
 
 ### Wykorzystanie wygenerowanego HTML:
