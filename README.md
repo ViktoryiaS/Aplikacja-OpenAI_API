@@ -46,7 +46,7 @@ Otwórz repozytorium w przeglądarce: ``` github.com ```
    
 Opcja 1: Pobierz plik ZIP z repozytorium z GitHub i wypakuj go na swoim komputerze.
 
-Opcja 2: Skorzystaj z Git i sklonuj repozytorium:
+Opcja 2: Sklonuj repozytorium:
 
 ``` git clone https://github.com/ViktoryiaS/Aplikacja-OpenAI_API.git ```
 
