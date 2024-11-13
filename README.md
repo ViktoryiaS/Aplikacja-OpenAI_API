@@ -14,10 +14,15 @@ Aplikacja umożliwia łatwą konwersję artykułów do formatu HTML, zachowując
 ## Krótkie wyjaśnienie kodu:
 
 procesuj_artykul: Funkcja, która łączy się z API OpenAI, przetwarza artykuł i zwraca wygenerowany kod HTML.
+
 wczytaj_artykuł: Wczytuje artykuł z pliku tekstowego.
+
 zapisz_do_html: Zapisuje wygenerowany HTML do wskazanego pliku.
+
 generuj_szablon_html: Tworzy pusty szablon HTML, w którym można umieścić artykuł.
+
 generuj_podglad_html: Tworzy pełny podgląd HTML, w którym wstawiany jest wygenerowany artykuł.
+
 Aplikacja zapisuje wygenerowane pliki HTML: artykul.html (z artykułem), szablon.html (pusty szablon) oraz podglad.html (pełny podgląd artykułu).
 
 ## Instrukcja użycia
