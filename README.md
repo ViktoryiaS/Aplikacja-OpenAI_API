@@ -1,1 +1,1 @@
-# Aplikacja-do-przetwarzania-artyku-w-z-OpenAI-API
+# Aplikacja do przetwarzania artykułów z OpenAI API
