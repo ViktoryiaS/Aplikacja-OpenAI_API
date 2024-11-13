@@ -38,7 +38,7 @@ Klucz API możesz uzyskać, rejestrując się na stronie OpenAI.
 
 ## Uruchomienie skryptu
 
-# Uruchamianie skryptu w IDLE (Python 3.12.4):
+### Uruchamianie skryptu w IDLE (Python 3.12.4):
 
 Otwórz IDLE:
 Windows: Wyszukaj "IDLE" w menu Start.
