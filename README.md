@@ -42,13 +42,13 @@ Klucz API możesz uzyskać, rejestrując się na stronie OpenAI.
 
 #### 1. Pobierz lub sklonuj repozytorium:
    
-    Otwórz repozytorium w przeglądarce: github.com
+Otwórz repozytorium w przeglądarce: ``` github.com ```
    
 Opcja 1: Pobierz plik ZIP z repozytorium z GitHub i wypakuj go na swoim komputerze.
 
 Opcja 2: Skorzystaj z Git i sklonuj repozytorium:
 
-git clone https://github.com/nazwa/App.git
+``` git clone https://github.com/ViktoryiaS/Aplikacja-OpenAI_API.git ```
 
 #### 2. Otwórz IDLE:
 
