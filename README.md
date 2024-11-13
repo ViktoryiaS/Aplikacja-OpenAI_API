@@ -28,9 +28,12 @@ Aplikacja zapisuje wygenerowane pliki HTML: artykul.html (z artykułem), szablon
 ## Instrukcja użycia
 
 Przygotowanie artykułu
+
 Stwórz plik tekstowy (np. artykuł.txt) z artykułem, który chcesz przetworzyć. Plik powinien być zapisany w formacie tekstowym (np. .txt).
+
 Ustawienie klucza API OpenAI
 W kodzie, w miejscu openai.api_key = 'YOUR_OPENAI_API_KEY', wprowadź swój klucz API OpenAI.
+
 Klucz API możesz uzyskać, rejestrując się na stronie OpenAI.
 
 ## Uruchomienie skryptu
