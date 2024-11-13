@@ -82,7 +82,8 @@ Tworzony jest także szablon HTML (szablon.html) oraz podgląd artykułu (podgla
 
 W załączeniu znajduje się kod, który wykonuje wszystkie operacje wymagane w projekcie:
 
-```import openai
+```
+import openai
 import os
 
 # Ustawienie klucza API OpenAI
@@ -220,6 +221,7 @@ def main():
 # Uruchomienie aplikacji
 if __name__ == "__main__":
     main()
+
  ```
 
 Po wykonaniu tych kroków, Twoja aplikacja będzie gotowa do przetwarzania artykułów i generowania kodu HTML!
